@@ -1,20 +1,14 @@
 # ROS2_SIM_WS
-<h1 align="center">ROS2 实体差速小车自主导航系统</h1>
 
-<div align="center">
-  < img src="https://img.shields.io/badge/Ubuntu-22.04-orange" />
-  < img src="https://img.shields.io/badge/ROS2-Humble-blue" />
-  < img src="https://img.shields.io/badge/Python-3.8-yellow" />
-  < img src="https://img.shields.io/badge/Nav2-Navigation-brightgreen" />
-  < img src="https://img.shields.io/badge/Status-Developing-yellow" />
-</div>
-<br />
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Python](https://img.shields.io/badge/Python-3.8-yellow)
+![Stage](https://img.shields.io/badge/Sim-Stage-lightgrey)
+![Nav2](https://img.shields.io/badge/Nav-Nav2-blue)
 
-一个面向移动机器人仿真的 ROS 2 工作区，包含 Stage 与 Gazebo Sim 仿真、SLAM Toolbox 建图、Nav2 定位和自主导航示例。
+一个面向移动机器人仿真的 ROS 2 工作区，包含 Stage 与 Gazebo Sim 仿真、SLAM Toolbox 建图等。
 
 > 当前项目仍在开发中。主流程以 ROS 2 包为主，部分机器人描述目录来自较旧项目，可能需要根据所用 ROS 版本调整。
-
-## 建图效果
 
 ![SLAM 建图结果](map/my_map.png)
 
