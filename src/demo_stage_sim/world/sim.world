@@ -1,0 +1,54 @@
+#全局参数
+resolution 0.02
+interval_sim 200
+#配置窗体参数
+window
+(
+  size [ 600 400 ] # in pixels
+  scale 30.0   # pixels per meter
+  center [ 0.000  0.000 ]
+  rotate [ 0.000  0.000 ]
+
+  show_data 1              # 1=on 0=off
+)
+#地图
+define floorplan model
+(
+  # sombre, sensible, artistic
+  color "gray60"
+
+  # most maps will need a bounding box
+  boundary 1
+
+  gui_nose 0
+  gui_grid 0
+
+  gui_outline 0
+  gripper_return 0
+  fiducial_return 0
+  laser_return 1
+)
+
+# load an environment bitmap
+floorplan
+( 
+  name "cave"
+  size [16.000 16.000 5.00]
+  pose [0 0 0 0]
+  bitmap "maps/cave.png"
+  gui_move 0
+)
+#障碍物
+#model(pose [-2 -5 0 0] color "green")
+
+#define my_model model(
+  #  size [2 2 2]
+  #  color "red"
+#)
+#my_model(pose [0 0 0 0])
+#my_model(pose [2 5 0 0])
+#机器人
+include "robot/mycar.inc"
+mycar(
+    pose [-2 -4 0 30]
+)

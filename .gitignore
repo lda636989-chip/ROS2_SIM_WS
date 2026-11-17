@@ -1,0 +1,19 @@
+# ROS2 编译产物（绝对不能传）
+build/
+install/
+log/
+
+# 编辑器配置
+.vscode/
+
+# Gazebo 模型库（通常很大，不要传）
+gz_models/
+
+# AWS/Agent 等本地环境相关（具体看你里面的内容，如果是密钥千万别传）
+aws/
+agents/
+codex/
+
+# Python 缓存和 Bag 包
+__pycache__/
+*.bag
