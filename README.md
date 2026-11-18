@@ -1,22 +1,26 @@
 # ROS2_SIM_WS
 
-一个面向移动机器人仿真的 ROS 2 工作区，包含 Stage 与 Gazebo Sim 仿真、SLAM Toolbox 建图、Nav2 定位和自主导航示例。
+![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange)
+![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Python](https://img.shields.io/badge/Python-3.8-yellow)
+![Stage](https://img.shields.io/badge/Sim-Stage-lightgrey)
+![Nav2](https://img.shields.io/badge/Nav-Nav2-blue)
+
+一个面向移动机器人仿真的 ROS 2 工作区，包含 Stage 与 Gazebo Sim 仿真、SLAM Toolbox 建图等。
 
 > 当前项目仍在开发中。主流程以 ROS 2 包为主，部分机器人描述目录来自较旧项目，可能需要根据所用 ROS 版本调整。
 
-## 建图效果
-V
 ![SLAM 建图结果](map/my_map.png)
 
-## 功能
+功能
 
-- 使用 Stage 运行二维移动机器人仿真
-- 使用 Gazebo Sim 加载机器人和仿真世界
-- 使用 SLAM Toolbox 在线建图
-- 使用 Nav2 Map Server 加载地图
-- 使用 AMCL 进行机器人定位
-- 使用 Nav2 进行路径规划、控制、行为恢复和航点导航
-- 使用 RViz2 显示地图、激光雷达、机器人位姿和导航结果
+- ✅ 使用 Stage 运行二维移动机器人仿真
+- ✅ 使用 Gazebo Sim 加载机器人和仿真世界
+- ✅ 使用 SLAM Toolbox 在线建图
+- ✅ 使用 Nav2 Map Server 加载地图
+- ✅ 使用 AMCL 进行机器人定位
+- ✅ 使用 Nav2 进行路径规划、控制、行为恢复和航点导航
+- ✅ 使用 RViz2 显示地图、激光雷达、机器人位姿和导航结果
 
 ## 目录结构
 
