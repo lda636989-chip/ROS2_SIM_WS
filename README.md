@@ -1,7 +1,7 @@
 # ROS2_SIM_WS
 
-![Ubuntu](https://img.shields.io/badge/Ubuntu-22.04-orange)
-![ROS2](https://img.shields.io/badge/ROS2-Humble-blue)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-24.04-orange)
+![ROS2](https://img.shields.io/badge/ROS2-jazzy-blue)
 ![Python](https://img.shields.io/badge/Python-3.8-yellow)
 ![Stage](https://img.shields.io/badge/Sim-Stage-lightgrey)
 ![Nav2](https://img.shields.io/badge/Nav-Nav2-blue)
